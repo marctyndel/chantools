@@ -192,7 +192,7 @@ func sweepTimeLockManual(extendedKey *hdkeychain.ExtendedKey, apiURL string,
 			break
 		}
 
-		log.Infof("Tried %d of %d keys.", i+1, maxKeys)
+		log.Infof("Tried %d of %d keys.", i+1, maxNumChannels)
 	}
 
 	// Did we find what we looked for or did we just exhaust all
